@@ -1,0 +1,10 @@
+[
+  {"id":"T-01","name":"Boat Team A","type":"boat","equipment":["motor_boat","life_jackets","rope"],"capacity":6,"base":"Clement Town","location":{"lat":30.2700,"lng":78.0020},"status":"free"},
+  {"id":"T-02","name":"Boat Team B","type":"boat","equipment":["motor_boat","life_jackets"],"capacity":6,"base":"Dharampur","location":{"lat":30.3100,"lng":78.0480},"status":"free"},
+  {"id":"T-03","name":"Boat Team C","type":"boat","equipment":["inflatable_boat","life_jackets"],"capacity":4,"base":"Bindal Basti","location":{"lat":30.3280,"lng":78.0280},"status":"free"},
+  {"id":"T-04","name":"Medical Van 1","type":"medical","equipment":["first_aid","oxygen","stretcher"],"capacity":2,"base":"CHC Majra","location":{"lat":30.2855,"lng":78.0085},"status":"free"},
+  {"id":"T-05","name":"Ambulance 2","type":"medical","equipment":["first_aid","oxygen","defibrillator"],"capacity":2,"base":"Patel Nagar","location":{"lat":30.3081,"lng":78.0179},"status":"free"},
+  {"id":"T-06","name":"SDRF Search Team","type":"search_rescue","equipment":["cutter","rope","debris_tools","torch"],"capacity":4,"base":"Mothrowala","location":{"lat":30.2775,"lng":78.0285},"status":"free"},
+  {"id":"T-07","name":"Relief Truck 1","type":"relief","equipment":["food_packets","water_cans","blankets"],"capacity":50,"base":"GEHU Campus","location":{"lat":30.2694,"lng":78.0014},"status":"free"},
+  {"id":"T-08","name":"Fire Unit 1","type":"fire","equipment":["hose","gas_detector","ladder"],"capacity":3,"base":"ISBT Dehradun","location":{"lat":30.2890,"lng":78.0030},"status":"free"}
+]

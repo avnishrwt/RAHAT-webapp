@@ -1,0 +1,12 @@
+{
+  "alert_id": "IMD-UK-2026-11-10-001",
+  "source": "IMD",
+  "issued_at": "2026-11-10T01:45:00",
+  "severity": "red",
+  "event": "Extremely heavy rainfall",
+  "area": "Clement Town, Majra, Mothrowala, Banjarawala and the Rispana-Bindal basin, Dehradun",
+  "districts": ["Dehradun"],
+  "valid_until": "2026-11-10T18:00:00",
+  "description": "Extremely heavy rainfall very likely over Dehradun district. Risk of flash flooding along Rispana and Bindal rivers and waterlogging in low-lying areas of Clement Town, Kargi, Mothrowala and Banjarawala.",
+  "expected_rainfall_mm": 210
+}

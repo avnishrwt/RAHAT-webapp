@@ -1,0 +1,20 @@
+loc_id,name,alias_hinglish,lat,lng,inside_area,notes
+L01,"Society Area, Clement Town",society area / clement town society,30.2702,78.0025,yes,Worst hit. Near-miss pair 1 (INC-01 / INC-02).
+L02,"Bell Road, Clement Town",bell road clement town,30.2688,78.0008,yes,GEHU ke paas. Residential.
+L03,Graphic Era Hill University Campus,graphic era hill university / GEHU campus,30.2694,78.0014,yes,Relief shelter. Food/water needs.
+L04,Majra,majra,30.2851,78.0083,yes,Low-lying.
+L05,ISBT Dehradun,isbt dehradun / bus adda,30.2889,78.0031,yes,Shops flooded.
+L06,Banjarawala,banjarawala,30.2723,78.0186,yes,Near-miss pair 2 (INC-03 / INC-04).
+L07,Mothrowala,mothrowala,30.2772,78.0281,yes,Near-miss pair 5 (INC-09 / INC-10).
+L08,Kargi Chowk,kargi chowk,30.2934,78.0229,yes,Road blocked - boat only.
+L09,Ajabpur Kalan,ajabpur kalan,30.2901,78.0402,yes,Elderly-heavy. Lone victims.
+L10,Dharampur,dharampur,30.3102,78.0478,yes,Near-miss pair 4 (INC-07 / INC-08).
+L11,Nehru Colony,nehru colony / nehru clny,30.3085,78.0521,yes,Near-miss pair 6 (INC-11 / INC-12).
+L12,Rispana Pul,rispana pul / rispana nadi,30.3098,78.0562,yes,River edge. Highest hazard.
+L13,Patel Nagar,patel nagar,30.3081,78.0179,yes,Low-lying junction.
+L14,Bindal Basti,bindal basti / bindal nadi ke paas,30.3287,78.0276,yes,Dense. Near-miss pair 3 (INC-05 / INC-06).
+L15,CHC Majra,chc majra / majra sarkari aspataal,30.2855,78.0085,yes,Medical referrals.
+L16,"Shiv Mandir, Banjarawala",shiv mandir banjarawala,30.2735,78.0170,yes,Temple shelter. Landmark-only address.
+X01,Doiwala Market,doiwala market,30.1748,78.1211,no,OUTSIDE affected area. Fakes only.
+X02,Vikasnagar,vikasnagar,30.4692,77.7735,no,OUTSIDE affected area. Fakes only.
+X03,Rishikesh Triveni Ghat,rishikesh triveni ghat,30.1082,78.2950,no,OUTSIDE affected area. Fakes only.

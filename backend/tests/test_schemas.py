@@ -1,6 +1,9 @@
+import pytest
+from pydantic import ValidationError
 from sqlmodel import Session, SQLModel, create_engine, select
 
-from shared.schemas import Channel, ExtractedFields, Incident, Message, MessageStatus
+from shared.schemas import (Channel, ExtractedFields, Hazard, Incident, Message,
+                            MessageStatus, Need, Urgency)
 
 
 def make_session() -> Session:
@@ -29,4 +32,22 @@ def test_message_joins_incident_and_json_lists_round_trip():
 
 def test_extractor_unknown_fields_stay_empty():
     f = ExtractedFields(location_text="sector 4 mandir ke peeche")
-    assert f.people_count is None and f.needs == []
+    assert f.people_count is None and f.needs == [] and f.hazard is None
+
+
+def test_extractor_accepts_multiple_needs_and_rejects_unknown_hazard():
+    f = ExtractedFields(needs=["rescue", "medical"], hazard="flood",
+                        hazard_detail="paani 5 feet", extracted_by="llm")
+    assert f.needs == [Need.rescue, Need.medical]
+
+    with pytest.raises(ValidationError):
+        ExtractedFields(hazard="tsunami")  # not in Hazard: put it in hazard_detail
+
+
+def test_incident_stores_hazard_and_urgency():
+    s = make_session()
+    inc = Incident(hazard=Hazard.flood, hazard_detail="water ~5 ft", urgency=Urgency.critical)
+    s.add(inc)
+    s.commit()
+    got = s.get(Incident, inc.id)
+    assert got.hazard == Hazard.flood and got.urgency == Urgency.critical

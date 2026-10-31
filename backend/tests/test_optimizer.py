@@ -58,6 +58,12 @@ def test_busy_team_and_empty_inputs():
     assert optimize([], [TEAM_A]) == []
 
 
+def test_forbidden_pair_is_never_recommended():
+    # Operator rejected Team A for dadi: next best is Team B.
+    recs = by_incident(optimize([DADI], [TEAM_A, TEAM_B], eta=table_eta, forbidden={(2, "boat-a")}))
+    assert recs[2].team_id == "boat-b"
+
+
 def test_straight_line_eta():
     team = OptTeam(id="t", type=BOAT, lat=30.0, lng=78.0, speed_kmph=20)
     inc = OptIncident(id=1, lat=30.1, lng=78.0, priority=1, team_types=(BOAT,))

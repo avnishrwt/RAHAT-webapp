@@ -61,12 +61,14 @@ def pair_cost(eta_min: float, priority: float, lam: float = LAMBDA) -> float:
 
 
 def optimize(incidents: list[OptIncident], teams: list[OptTeam],
-             eta: EtaFn = straight_line_eta, lam: float = LAMBDA) -> list[Recommendation]:
+             eta: EtaFn = straight_line_eta, lam: float = LAMBDA,
+             forbidden: set[tuple[int, str]] = frozenset()) -> list[Recommendation]:
     """Best team for every incident together, not one at a time.
 
     Graph: source -> team -> slot -> sink, where a slot is (incident, team type).
     Each team also has an "idle" arc straight to sink, so the flow always
     balances even when there are more teams than slots.
+    forbidden holds (incident id, team id) pairs the operator rejected.
     """
     teams = [t for t in teams if t.capacity > 0]
     slots = [(inc, tt) for inc in incidents for tt in inc.team_types]
@@ -87,8 +89,8 @@ def optimize(incidents: list[OptIncident], teams: list[OptTeam],
         slot_node = first_slot_node + k
         smcf.add_arc_with_capacity_and_unit_cost(slot_node, sink, 1, 0)
         for t in teams:
-            if t.type != team_type:
-                continue  # filter: wrong skill (PRD 6.5 step 2)
+            if t.type != team_type or (inc.id, t.id) in forbidden:
+                continue  # filter: wrong skill (PRD 6.5 step 2) or operator said no
             e = eta(t, inc)
             c = pair_cost(e, inc.priority, lam)
             arc = smcf.add_arc_with_capacity_and_unit_cost(team_node[t.id], slot_node, 1, round(c * SCALE))

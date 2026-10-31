@@ -1,0 +1,6 @@
+[
+  {"id": "boat-a", "name": "Boat Team A", "type": "boat", "equipment": ["boat", "life_jackets"], "lat": 30.300, "lng": 78.030},
+  {"id": "boat-b", "name": "Boat Team B", "type": "boat", "equipment": ["boat", "life_jackets"], "lat": 30.340, "lng": 78.060},
+  {"id": "med-1", "name": "Medical Van 1", "type": "medical", "equipment": ["first_aid", "stretcher"], "lat": 30.320, "lng": 78.020},
+  {"id": "relief-1", "name": "Relief Truck 1", "type": "relief", "equipment": ["food", "water"], "capacity": 3, "lat": 30.310, "lng": 78.050}
+]

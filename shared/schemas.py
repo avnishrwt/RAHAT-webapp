@@ -5,7 +5,7 @@ Tables follow PRD section 9. Change a field here, tell the whole team.
 from datetime import datetime, timezone
 from enum import StrEnum
 
-from pydantic import BaseModel
+from pydantic import BaseModel, model_validator
 from sqlmodel import JSON, Column, Field, SQLModel
 
 
@@ -211,3 +211,25 @@ class AuditLog(SQLModel, table=True):
     entity_id: str
     before: dict | None = Field(default=None, sa_column=Column(JSON))
     after: dict | None = Field(default=None, sa_column=Column(JSON))
+
+
+# ---------- API request bodies ----------
+
+class MessageIn(BaseModel):
+    """Body of POST /messages. Replay script, simulator page and call buttons all send this."""
+    channel: Channel
+    received_at: datetime | None = None   # no timezone given = IST; missing = now
+    sender: str | None = None             # raw phone: hashed by the backend, never stored
+    sender_hash: str | None = None        # replay data may arrive already hashed
+    raw_text: str | None = None
+    audio_url: str | None = None
+
+    @model_validator(mode="after")
+    def check_required(self):
+        if not (self.sender or self.sender_hash):
+            raise ValueError("give sender or sender_hash")
+        # A missed call or proactive check carries no content; everything else must.
+        silent = {Channel.missed_call, Channel.proactive_check}
+        if self.channel not in silent and not (self.raw_text or self.audio_url):
+            raise ValueError("give raw_text or audio_url")
+        return self

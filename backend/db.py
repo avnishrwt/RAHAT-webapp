@@ -1,7 +1,9 @@
 """Database engine and session. Every endpoint gets its session from get_session()."""
 import os
+from typing import Annotated
 
 from dotenv import load_dotenv
+from fastapi import Depends
 from sqlmodel import Session, SQLModel, create_engine
 
 import shared.schemas  # noqa: F401  (registers the tables on SQLModel.metadata)
@@ -21,3 +23,7 @@ def create_db() -> None:
 def get_session():
     with Session(engine) as session:
         yield session
+
+
+# Endpoints write `session: SessionDep` and FastAPI calls get_session() per request.
+SessionDep = Annotated[Session, Depends(get_session)]

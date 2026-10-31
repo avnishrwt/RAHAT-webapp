@@ -61,21 +61,67 @@ class AssignmentStatus(StrEnum):
     rejected = "rejected"
 
 
+class Need(StrEnum):
+    rescue = "rescue"
+    medical = "medical"
+    food = "food"
+    water = "water"
+    medicine = "medicine"
+    shelter = "shelter"
+
+
+class Vulnerable(StrEnum):
+    elderly = "elderly"
+    child = "child"
+    disabled = "disabled"
+    pregnant = "pregnant"
+
+
+class Hazard(StrEnum):
+    flood = "flood"
+    fire = "fire"
+    collapse = "collapse"
+    landslide = "landslide"
+
+
+class Medical(StrEnum):
+    life_threatening = "life_threatening"
+    serious = "serious"
+    minor = "minor"
+
+
+class Urgency(StrEnum):
+    critical = "critical"
+    high = "high"
+    medium = "medium"
+    low = "low"
+
+
+class ExtractedBy(StrEnum):
+    llm = "llm"
+    rules = "rules"      # keyword fallback / baseline
+
+
 # ---------- extractor output (contract between agents and backend) ----------
 
 class ExtractedFields(BaseModel):
     """What the Extractor agent returns for ONE message.
 
     Unknown means None / empty list. Never guess (PRD FR02).
+    Enum fields reject anything else, so lowercase LLM output before validating.
     """
     location_text: str | None = None
+    lat: float | None = None
+    lng: float | None = None
     people_count: int | None = None
-    vulnerable: list[str] = []      # "elderly", "child", "disabled", "pregnant"
-    needs: list[str] = []           # "rescue", "medical", "food", "water", "shelter"
-    hazard: str | None = None       # free text, e.g. "water ~5 ft"
-    medical: str | None = None      # "life_threatening", "serious", "minor"
-    urgency: str | None = None      # "critical", "high", "medium", "low"
+    vulnerable: list[Vulnerable] = []
+    needs: list[Need] = []          # one message can need several: rescue + medical
+    hazard: Hazard | None = None
+    hazard_detail: str | None = None  # free text, e.g. "water ~5 ft"
+    medical: Medical | None = None
+    urgency: Urgency | None = None
     language: str | None = None
+    extracted_by: ExtractedBy | None = None
 
 
 # ---------- database tables ----------
@@ -103,10 +149,13 @@ class Incident(SQLModel, table=True):
     lat: float | None = None
     lng: float | None = None
     people_count: int | None = None
+    # JSON lists hold plain strings: the Vulnerable / Need values above.
     vulnerable: list[str] = Field(default_factory=list, sa_column=Column(JSON))
     needs: list[str] = Field(default_factory=list, sa_column=Column(JSON))
-    hazard: str | None = None
-    medical: str | None = None
+    hazard: Hazard | None = None
+    hazard_detail: str | None = None
+    medical: Medical | None = None
+    urgency: Urgency | None = None
     priority_score: float = 0.0
     priority_breakdown: dict = Field(default_factory=dict, sa_column=Column(JSON))
     confidence: float = 0.5          # neutral start: a lone report is not "low"

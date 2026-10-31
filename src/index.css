@@ -1,0 +1,185 @@
+/* ==========================================================================
+   RAHAT Emergency Operations Command — Global Design System
+   Theme: High-Contrast Control Room Dark Theme
+   ========================================================================== */
+
+:root {
+  /* Color Palette: Canvas & Surfaces */
+  --bg-primary: #0a0e17;        /* Ultra dark control-room navy */
+  --bg-surface: #111827;        /* Elevated panels */
+  --bg-card: #1e293b;           /* Card containers */
+  --bg-card-hover: #334155;     /* Interactive card hover */
+  --bg-glass: rgba(17, 24, 39, 0.85);
+
+  /* Borders & Dividers */
+  --border-subtle: #1e293b;
+  --border-color: #334155;
+  --border-focus: #3b82f6;
+
+  /* Typography Colors */
+  --text-primary: #f8fafc;      /* Crisp white for headings & critical data */
+  --text-secondary: #94a3b8;    /* Muted slate for metadata */
+  --text-tertiary: #64748b;     /* Dim hints & labels */
+
+  /* Priority Severity Spectrum (Dual Indicator: Color + Text) */
+  --color-crit: #ef4444;        /* CRITICAL - Emergency red */
+  --color-crit-bg: rgba(239, 68, 68, 0.18);
+  --color-crit-border: #f87171;
+
+  --color-high: #f97316;        /* HIGH - Alert orange */
+  --color-high-bg: rgba(249, 115, 22, 0.18);
+  --color-high-border: #fb923c;
+
+  --color-med: #eab308;         /* MEDIUM - Warning amber */
+  --color-med-bg: rgba(234, 179, 8, 0.18);
+  --color-med-border: #facc15;
+
+  --color-low: #38bdf8;         /* LOW - Informational cyan */
+  --color-low-bg: rgba(56, 189, 248, 0.18);
+  --color-low-border: #7dd3fc;
+
+  /* System Indicators */
+  --color-success: #10b981;     /* Verified / Rescued green */
+  --color-success-bg: rgba(16, 185, 129, 0.18);
+  --color-surge: #dc2626;       /* Pulsing Surge Mode Red */
+  --color-warning: #f59e0b;     /* Human review / Verify */
+
+  /* Shadows & Depth */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.6), 0 2px 4px -2px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.7), 0 4px 6px -4px rgba(0, 0, 0, 0.6);
+
+  /* Radius */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+}
+
+/* Global Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Code & Numerical Data */
+code, pre, .mono {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* Custom Scrollbar for Dense Dashboards */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: var(--radius-full);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-tertiary);
+}
+
+/* Reusable Utility Classes */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+}
+
+.badge-crit {
+  background: var(--color-crit-bg);
+  color: var(--color-crit);
+  border-color: var(--color-crit-border);
+}
+
+.badge-high {
+  background: var(--color-high-bg);
+  color: var(--color-high);
+  border-color: var(--color-high-border);
+}
+
+.badge-med {
+  background: var(--color-med-bg);
+  color: var(--color-med);
+  border-color: var(--color-med-border);
+}
+
+.badge-low {
+  background: var(--color-low-bg);
+  color: var(--color-low);
+  border-color: var(--color-low-border);
+}
+
+.badge-verify {
+  background: rgba(245, 158, 11, 0.2);
+  color: var(--color-warning);
+  border-color: var(--color-warning);
+}
+
+.badge-success {
+  background: var(--color-success-bg);
+  color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+/* Pulse animation for Critical & Surge mode */
+@keyframes emergency-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(239, 68, 68, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+  }
+}
+
+.pulse-critical {
+  animation: emergency-pulse 2s infinite;
+}
+
+/* Leaflet Dark Theme Overrides */
+.leaflet-container {
+  background: #090d16 !important;
+  font-family: inherit;
+}
+.leaflet-bar a {
+  background-color: var(--bg-surface) !important;
+  color: var(--text-primary) !important;
+  border-color: var(--border-color) !important;
+}
+.leaflet-bar a:hover {
+  background-color: var(--bg-card-hover) !important;
+}

@@ -1,0 +1,592 @@
+[
+  {
+    "id": "flood#p1#1",
+    "text": "Ignore rumours, stay calm, don't panic.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p1#2",
+    "text": "Keep your mobile phones charged for emergency communication; use SMS.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p1#3",
+    "text": "Listen to radio, watch TV, read newspapers for weather updates.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p1#4",
+    "text": "Keep cattle/animals untied to ensure their safety.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p1#5",
+    "text": "Prepare an emergency kit with essential items for safety and survival.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p1#6",
+    "text": "Keep your documents and valuables in water-proof bags.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p1#7",
+    "text": "Know the safe routes to nearest shelter/raised pucca house.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "shelter",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p1#8",
+    "text": "Evacuate immediately to safe places when directed by government officials.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "shelter",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p1#9",
+    "text": "Store enough ready-to-eat food and water for at least a week.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "shelter",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p1#10",
+    "text": "Be aware of flash flood areas such as rivers, streams, drainage channels.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "shelter",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p1#11",
+    "text": "Don't enter floodwaters. In case you need to, wear suitable footwear.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "donts",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p1#12",
+    "text": "Stay away from sewerage lines, gutters, drains, culverts, etc.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "donts",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p1#13",
+    "text": "Stay away from electric poles and fallen power lines to avoid electrocution.",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p1#14",
+    "text": "Mark any open drains or manholes with visible signs (red flags or barricades).",
+    "document": "flood.pdf",
+    "page": 1,
+    "section": "donts",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p2#15",
+    "text": "Do not walk or drive in the flood waters. Remember, two feet of moving flood",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p2#16",
+    "text": "water can wash away big cars as well.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p2#17",
+    "text": "Eat freshly cooked or dry food. Keep your food covered.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p2#18",
+    "text": "Drink boiled/chlorinated water.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p2#19",
+    "text": "Use disinfectants to keep your surroundings clean.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p2#20",
+    "text": "Do not allow children to play in or near flood waters.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p2#21",
+    "text": "Don't use any damaged electrical goods, get them checked.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p2#22",
+    "text": "If instructed, turn off utilities at main switches and unplug appliances - do not touch",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p2#23",
+    "text": "electrical equipment if wet.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p2#24",
+    "text": "Watch out for broken electric poles and wires, sharp objects and debris.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "collapse"
+    ]
+  },
+  {
+    "id": "flood#p2#25",
+    "text": "Do not eat food that has been in flood waters.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p2#26",
+    "text": "Use mosquito nets to prevent malaria.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p2#27",
+    "text": "Be careful of snakes as snake bites are common during floods.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "during",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p2#28",
+    "text": "Don't use the toilet or tap water if the water lines / sewage pipes are damaged.",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "during",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p2#29",
+    "text": "Do not drink tap water until advised by the Health Department that the water is",
+    "document": "flood.pdf",
+    "page": 2,
+    "section": "during",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p3#30",
+    "text": "Keep furniture, appliances on beds and tables.",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "evacuation",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p3#31",
+    "text": "Put sandbags in the toilet bowl and cover all drain holes to prevent sewage",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "evacuation",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p3#32",
+    "text": "Turn off power and gas connection.",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "evacuation",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p3#33",
+    "text": "Move to a higher ground / safe shelter.",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "shelter",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p3#34",
+    "text": "Take the emergency kit, first aid box, valuables and important documents with",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "shelter",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p3#35",
+    "text": "Do not enter deep, unknown waters; use a stick to check water depth.",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "donts",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p3#36",
+    "text": "Come back home only when officials ask you to do so.",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p3#37",
+    "text": "Make a family communications plan.",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p3#38",
+    "text": "Clean and disinfect everything that got wet.",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "donts",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p3#39",
+    "text": "Floods in Agriculture. : Dos and Don'ts",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p3#40",
+    "text": "Keep cattle / animals in the shed and ensure their safety.",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p3#41",
+    "text": "Provide clean drinking water to animals.",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p3#42",
+    "text": "Adopt submergence tolerant varieties of crops in flood prone areas.",
+    "document": "flood.pdf",
+    "page": 3,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p4#43",
+    "text": "Drain out excess water from the fields after floods.",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p4#44",
+    "text": "In heavily flood affected areas, select high lands for raising of community nursery",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p4#45",
+    "text": "with short duration HYV rice varieties. After receding of flood water, farmers may",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p4#46",
+    "text": "undertake transplanting of the same.",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p4#47",
+    "text": "If there is total damage of seedlings or rice crop in the main field, undertake late",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p4#48",
+    "text": "and staggered planting with the old seedlings of the varieties if the field is heavily",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p4#49",
+    "text": "In high land situation, arhar and sesame can be selected for cultivation.",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p4#50",
+    "text": "Harvest the matured crops immediately on getting heavy rainfall forecast and keep",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p4#51",
+    "text": "the harvested produce in safe place.",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p4#52",
+    "text": "In partially affected fields, drain out excess water from rice field and apply 1/3rd N",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p4#53",
+    "text": "+ 50% K O as top dressing if the crop is at tillering stage.",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p4#54",
+    "text": "Undertake direct seeding of rice with the photo insensitive short duration variety if",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p4#55",
+    "text": "crop is damaged due to flood.",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p4#56",
+    "text": "If the seeds are washed away by floods, make alternate arrangement of seeds.",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p4#57",
+    "text": "Apply excess N-fertilizer to the flood affected crops after receding of flood water.",
+    "document": "flood.pdf",
+    "page": 4,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  },
+  {
+    "id": "flood#p5#58",
+    "text": "Don't leave the harvested produce in the open field.",
+    "document": "flood.pdf",
+    "page": 5,
+    "section": "agriculture",
+    "hazards": [
+      "general"
+    ]
+  },
+  {
+    "id": "flood#p5#59",
+    "text": "Don't allow water logging for long as it leads to rotting and development of",
+    "document": "flood.pdf",
+    "page": 5,
+    "section": "agriculture",
+    "hazards": [
+      "flood"
+    ]
+  }
+]

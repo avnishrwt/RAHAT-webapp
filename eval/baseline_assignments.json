@@ -1,0 +1,69 @@
+{
+  "method": "greedy_nearest_free_team",
+  "assignments": [
+    {
+      "incident_id": "B-001",
+      "team_id": "T-02",
+      "urgency": "critical",
+      "location": "Rispana Pul",
+      "eta_min": 2.6,
+      "km": 0.79
+    },
+    {
+      "incident_id": "B-002",
+      "team_id": "T-06",
+      "urgency": "critical",
+      "location": "Mothrowala",
+      "eta_min": 0.2,
+      "km": 0.05
+    },
+    {
+      "incident_id": "B-003",
+      "team_id": "T-03",
+      "urgency": "critical",
+      "location": "Bindal Basti",
+      "eta_min": 0.3,
+      "km": 0.09
+    },
+    {
+      "incident_id": "B-004",
+      "team_id": "T-01",
+      "urgency": "critical",
+      "location": "Bell Road, Clement Town",
+      "eta_min": 0.6,
+      "km": 0.18
+    },
+    {
+      "incident_id": "B-005",
+      "team_id": "T-08",
+      "urgency": "critical",
+      "location": "Society Area, Clement Town",
+      "eta_min": 7.0,
+      "km": 2.09
+    },
+    {
+      "incident_id": "B-016",
+      "team_id": "T-04",
+      "urgency": "critical",
+      "location": "CHC Majra",
+      "eta_min": 0.0,
+      "km": 0.0
+    },
+    {
+      "incident_id": "B-024",
+      "team_id": "T-05",
+      "urgency": "critical",
+      "location": "Dharampur",
+      "eta_min": 9.6,
+      "km": 2.88
+    },
+    {
+      "incident_id": "B-029",
+      "team_id": "T-07",
+      "urgency": "high",
+      "location": "Bindal Basti",
+      "eta_min": 23.5,
+      "km": 7.06
+    }
+  ]
+}

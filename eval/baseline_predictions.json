@@ -1,0 +1,1214 @@
+{
+  "incidents": [
+    {
+      "id": "B-001",
+      "message_ids": [
+        "MSG-001",
+        "MSG-010",
+        "MSG-027"
+      ],
+      "location": "Rispana Pul",
+      "need": "rescue",
+      "people_count": 3,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-002",
+      "message_ids": [
+        "MSG-002",
+        "MSG-012",
+        "MSG-021",
+        "MSG-030",
+        "MSG-047",
+        "MSG-076",
+        "MSG-091",
+        "MSG-105",
+        "MSG-132"
+      ],
+      "location": "Mothrowala",
+      "need": "rescue",
+      "people_count": 8,
+      "vulnerable": [
+        "child",
+        "elderly",
+        "injured"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-003",
+      "message_ids": [
+        "MSG-003",
+        "MSG-015",
+        "MSG-037",
+        "MSG-041",
+        "MSG-086",
+        "MSG-096",
+        "MSG-114",
+        "MSG-139"
+      ],
+      "location": "Bindal Basti",
+      "need": "rescue",
+      "people_count": 6,
+      "vulnerable": [
+        "child",
+        "disabled",
+        "injured"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-004",
+      "message_ids": [
+        "MSG-004",
+        "MSG-018",
+        "MSG-044",
+        "MSG-100"
+      ],
+      "location": "Bell Road, Clement Town",
+      "need": "rescue",
+      "people_count": 4,
+      "vulnerable": [
+        "child"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-005",
+      "message_ids": [
+        "MSG-005",
+        "MSG-024",
+        "MSG-045",
+        "MSG-053",
+        "MSG-088",
+        "MSG-108"
+      ],
+      "location": "Society Area, Clement Town",
+      "need": "rescue",
+      "people_count": 4,
+      "vulnerable": [
+        "child",
+        "elderly"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-006",
+      "message_ids": [
+        "MSG-006",
+        "MSG-020"
+      ],
+      "location": "Ajabpur Kalan",
+      "need": null,
+      "people_count": 1,
+      "vulnerable": [
+        "disabled",
+        "elderly"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-007",
+      "message_ids": [
+        "MSG-007"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-008",
+      "message_ids": [
+        "MSG-008",
+        "MSG-025",
+        "MSG-056",
+        "MSG-084"
+      ],
+      "location": "Dharampur",
+      "need": "rescue",
+      "people_count": 3,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-009",
+      "message_ids": [
+        "MSG-011",
+        "MSG-029",
+        "MSG-063",
+        "MSG-087"
+      ],
+      "location": "Banjarawala",
+      "need": "rescue",
+      "people_count": 10,
+      "vulnerable": [
+        "injured"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-010",
+      "message_ids": [
+        "MSG-013"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-011",
+      "message_ids": [
+        "MSG-014",
+        "MSG-033",
+        "MSG-064",
+        "MSG-095"
+      ],
+      "location": "Ajabpur Kalan",
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-012",
+      "message_ids": [
+        "MSG-016",
+        "MSG-161"
+      ],
+      "location": "Kargi Chowk",
+      "need": null,
+      "people_count": 10,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-013",
+      "message_ids": [
+        "MSG-017"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-014",
+      "message_ids": [
+        "MSG-019",
+        "MSG-072",
+        "MSG-094"
+      ],
+      "location": "Society Area, Clement Town",
+      "need": null,
+      "people_count": 1,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-015",
+      "message_ids": [
+        "MSG-022"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": 4,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-016",
+      "message_ids": [
+        "MSG-023",
+        "MSG-050",
+        "MSG-111"
+      ],
+      "location": "CHC Majra",
+      "need": "medical",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-017",
+      "message_ids": [
+        "MSG-028",
+        "MSG-077",
+        "MSG-104",
+        "MSG-107",
+        "MSG-112",
+        "MSG-182"
+      ],
+      "location": "Nehru Colony",
+      "need": null,
+      "people_count": 2,
+      "vulnerable": [
+        "disabled",
+        "elderly"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-018",
+      "message_ids": [
+        "MSG-031"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-019",
+      "message_ids": [
+        "MSG-032",
+        "MSG-034",
+        "MSG-035",
+        "MSG-038",
+        "MSG-040",
+        "MSG-042",
+        "MSG-169"
+      ],
+      "location": "Doiwala Market",
+      "need": "rescue",
+      "people_count": 50,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-020",
+      "message_ids": [
+        "MSG-036",
+        "MSG-068",
+        "MSG-117",
+        "MSG-141",
+        "MSG-160",
+        "MSG-172",
+        "MSG-175"
+      ],
+      "location": "Banjarawala",
+      "need": null,
+      "people_count": 2,
+      "vulnerable": [
+        "child",
+        "elderly",
+        "injured"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-021",
+      "message_ids": [
+        "MSG-039"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-022",
+      "message_ids": [
+        "MSG-043",
+        "MSG-069",
+        "MSG-099"
+      ],
+      "location": "Kargi Chowk",
+      "need": "rescue",
+      "people_count": 10,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-023",
+      "message_ids": [
+        "MSG-046"
+      ],
+      "location": null,
+      "need": "medical",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-024",
+      "message_ids": [
+        "MSG-048",
+        "MSG-073",
+        "MSG-103",
+        "MSG-174",
+        "MSG-186"
+      ],
+      "location": "Dharampur",
+      "need": "medical",
+      "people_count": null,
+      "vulnerable": [
+        "elderly",
+        "pregnant"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-025",
+      "message_ids": [
+        "MSG-049"
+      ],
+      "location": "ISBT Dehradun",
+      "need": null,
+      "people_count": 5,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-026",
+      "message_ids": [
+        "MSG-051"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-027",
+      "message_ids": [
+        "MSG-052",
+        "MSG-074",
+        "MSG-081",
+        "MSG-115"
+      ],
+      "location": "Nehru Colony",
+      "need": "medical",
+      "people_count": 1,
+      "vulnerable": [
+        "child",
+        "pregnant"
+      ],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-028",
+      "message_ids": [
+        "MSG-054",
+        "MSG-075",
+        "MSG-083",
+        "MSG-129",
+        "MSG-150",
+        "MSG-179"
+      ],
+      "location": "Nehru Colony",
+      "need": "rescue",
+      "people_count": 15,
+      "vulnerable": [
+        "disabled",
+        "injured"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-029",
+      "message_ids": [
+        "MSG-055",
+        "MSG-085",
+        "MSG-121"
+      ],
+      "location": "Bindal Basti",
+      "need": "medicine",
+      "people_count": null,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-030",
+      "message_ids": [
+        "MSG-057"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-031",
+      "message_ids": [
+        "MSG-058"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-032",
+      "message_ids": [
+        "MSG-059"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-033",
+      "message_ids": [
+        "MSG-060",
+        "MSG-090",
+        "MSG-120",
+        "MSG-122",
+        "MSG-135",
+        "MSG-152",
+        "MSG-155",
+        "MSG-170"
+      ],
+      "location": "Patel Nagar",
+      "need": "rescue",
+      "people_count": 12,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-034",
+      "message_ids": [
+        "MSG-061"
+      ],
+      "location": "Society Area, Clement Town",
+      "need": "medicine",
+      "people_count": null,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-035",
+      "message_ids": [
+        "MSG-062"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-036",
+      "message_ids": [
+        "MSG-065"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": 20,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-037",
+      "message_ids": [
+        "MSG-066"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [
+        "child"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-038",
+      "message_ids": [
+        "MSG-067",
+        "MSG-097",
+        "MSG-123",
+        "MSG-188"
+      ],
+      "location": "Graphic Era Hill University Campus",
+      "need": "food",
+      "people_count": 40,
+      "vulnerable": [
+        "child"
+      ],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-039",
+      "message_ids": [
+        "MSG-070"
+      ],
+      "location": null,
+      "need": "food",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-040",
+      "message_ids": [
+        "MSG-071"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [
+        "child"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-041",
+      "message_ids": [
+        "MSG-078"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-042",
+      "message_ids": [
+        "MSG-079",
+        "MSG-109",
+        "MSG-153"
+      ],
+      "location": "ISBT Dehradun",
+      "need": "rescue",
+      "people_count": 5,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-043",
+      "message_ids": [
+        "MSG-080"
+      ],
+      "location": "Majra",
+      "need": "medical",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-044",
+      "message_ids": [
+        "MSG-082"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [
+        "child"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-045",
+      "message_ids": [
+        "MSG-089"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-046",
+      "message_ids": [
+        "MSG-092",
+        "MSG-101"
+      ],
+      "location": "Banjarawala",
+      "need": "medical",
+      "people_count": 1,
+      "vulnerable": [
+        "elderly",
+        "injured"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-047",
+      "message_ids": [
+        "MSG-093"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-048",
+      "message_ids": [
+        "MSG-098"
+      ],
+      "location": "Rishikesh Triveni Ghat",
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-049",
+      "message_ids": [
+        "MSG-106",
+        "MSG-137",
+        "MSG-185"
+      ],
+      "location": "Mothrowala",
+      "need": null,
+      "people_count": null,
+      "vulnerable": [
+        "disabled"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-050",
+      "message_ids": [
+        "MSG-110",
+        "MSG-136",
+        "MSG-154"
+      ],
+      "location": "Graphic Era Hill University Campus",
+      "need": "water",
+      "people_count": 40,
+      "vulnerable": [],
+      "urgency": "medium",
+      "red_flags": []
+    },
+    {
+      "id": "B-051",
+      "message_ids": [
+        "MSG-116",
+        "MSG-140",
+        "MSG-159"
+      ],
+      "location": "Bell Road, Clement Town",
+      "need": "medicine",
+      "people_count": 1,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-052",
+      "message_ids": [
+        "MSG-118"
+      ],
+      "location": "Dharampur",
+      "need": "food",
+      "people_count": 1,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-053",
+      "message_ids": [
+        "MSG-119"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [
+        "child"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-054",
+      "message_ids": [
+        "MSG-124"
+      ],
+      "location": "Banjarawala",
+      "need": "shelter",
+      "people_count": 15,
+      "vulnerable": [],
+      "urgency": "medium",
+      "red_flags": []
+    },
+    {
+      "id": "B-055",
+      "message_ids": [
+        "MSG-125",
+        "MSG-177"
+      ],
+      "location": "Bindal Basti",
+      "need": null,
+      "people_count": null,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-056",
+      "message_ids": [
+        "MSG-126"
+      ],
+      "location": "Patel Nagar",
+      "need": "medical",
+      "people_count": 1,
+      "vulnerable": [
+        "injured"
+      ],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-057",
+      "message_ids": [
+        "MSG-127"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [
+        "pregnant"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-058",
+      "message_ids": [
+        "MSG-128",
+        "MSG-130",
+        "MSG-131",
+        "MSG-133"
+      ],
+      "location": "Vikasnagar",
+      "need": "rescue",
+      "people_count": 30,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-059",
+      "message_ids": [
+        "MSG-134"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-060",
+      "message_ids": [
+        "MSG-138",
+        "MSG-143",
+        "MSG-162"
+      ],
+      "location": "Rispana Pul",
+      "need": null,
+      "people_count": 8,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-061",
+      "message_ids": [
+        "MSG-144"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-062",
+      "message_ids": [
+        "MSG-145"
+      ],
+      "location": "Bell Road, Clement Town",
+      "need": null,
+      "people_count": null,
+      "vulnerable": [
+        "child"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-063",
+      "message_ids": [
+        "MSG-146"
+      ],
+      "location": null,
+      "need": "food",
+      "people_count": null,
+      "vulnerable": [
+        "child"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-064",
+      "message_ids": [
+        "MSG-147",
+        "MSG-165"
+      ],
+      "location": "Shiv Mandir, Banjarawala",
+      "need": "shelter",
+      "people_count": 15,
+      "vulnerable": [
+        "child",
+        "elderly"
+      ],
+      "urgency": "medium",
+      "red_flags": []
+    },
+    {
+      "id": "B-065",
+      "message_ids": [
+        "MSG-148",
+        "MSG-168",
+        "MSG-181"
+      ],
+      "location": "Mothrowala",
+      "need": "food",
+      "people_count": 12,
+      "vulnerable": [
+        "child"
+      ],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-066",
+      "message_ids": [
+        "MSG-151"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-067",
+      "message_ids": [
+        "MSG-156"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-068",
+      "message_ids": [
+        "MSG-157"
+      ],
+      "location": null,
+      "need": "shelter",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "medium",
+      "red_flags": []
+    },
+    {
+      "id": "B-069",
+      "message_ids": [
+        "MSG-158"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-070",
+      "message_ids": [
+        "MSG-163",
+        "MSG-178"
+      ],
+      "location": "Rispana Pul",
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-071",
+      "message_ids": [
+        "MSG-166"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-072",
+      "message_ids": [
+        "MSG-167"
+      ],
+      "location": "Ajabpur Kalan",
+      "need": "medical",
+      "people_count": 1,
+      "vulnerable": [],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-073",
+      "message_ids": [
+        "MSG-173"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-074",
+      "message_ids": [
+        "MSG-176"
+      ],
+      "location": null,
+      "need": "shelter",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "medium",
+      "red_flags": []
+    },
+    {
+      "id": "B-075",
+      "message_ids": [
+        "MSG-180"
+      ],
+      "location": null,
+      "need": "rescue",
+      "people_count": 500,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-076",
+      "message_ids": [
+        "MSG-183"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-077",
+      "message_ids": [
+        "MSG-184"
+      ],
+      "location": "Bindal Basti",
+      "need": "rescue",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-078",
+      "message_ids": [
+        "MSG-190"
+      ],
+      "location": "Society Area, Clement Town",
+      "need": "medical",
+      "people_count": null,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "critical",
+      "red_flags": []
+    },
+    {
+      "id": "B-079",
+      "message_ids": [
+        "MSG-193"
+      ],
+      "location": "Banjarawala",
+      "need": null,
+      "people_count": 1,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-080",
+      "message_ids": [
+        "MSG-195"
+      ],
+      "location": "Dharampur",
+      "need": "medicine",
+      "people_count": null,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "high",
+      "red_flags": []
+    },
+    {
+      "id": "B-081",
+      "message_ids": [
+        "MSG-196"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-082",
+      "message_ids": [
+        "MSG-197"
+      ],
+      "location": "Patel Nagar",
+      "need": null,
+      "people_count": null,
+      "vulnerable": [
+        "elderly"
+      ],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-083",
+      "message_ids": [
+        "MSG-198"
+      ],
+      "location": "CHC Majra",
+      "need": "food",
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "medium",
+      "red_flags": []
+    },
+    {
+      "id": "B-084",
+      "message_ids": [
+        "MSG-199"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    },
+    {
+      "id": "B-085",
+      "message_ids": [
+        "MSG-200"
+      ],
+      "location": null,
+      "need": null,
+      "people_count": null,
+      "vulnerable": [],
+      "urgency": "low",
+      "red_flags": []
+    }
+  ]
+}

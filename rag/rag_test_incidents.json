@@ -1,0 +1,23 @@
+[
+  {"id": "R-01", "need": "rescue", "people_count": 1, "vulnerable": ["elderly"], "hazard": "water ~5 ft", "expect_in_sop": true, "note": "buzurg ko flood water se nikalna"},
+  {"id": "R-02", "need": "rescue", "people_count": 4, "vulnerable": ["child"], "hazard": "water 4 ft, on rooftop", "expect_in_sop": true, "note": "chhat pe parivar"},
+  {"id": "R-03", "need": "rescue", "people_count": 3, "vulnerable": [], "hazard": "fast current near river", "expect_in_sop": true, "note": "tez bahao"},
+  {"id": "R-04", "need": "rescue", "people_count": 5, "vulnerable": [], "hazard": "gas leak", "expect_in_sop": true, "note": "gas band karne ki line SOP me hai"},
+  {"id": "R-05", "need": "rescue", "people_count": 3, "vulnerable": [], "hazard": "fallen electric pole, live wire in water", "expect_in_sop": true, "note": "bijli ka taar"},
+  {"id": "R-06", "need": "rescue", "people_count": 2, "vulnerable": ["injured"], "hazard": "wall collapse, debris", "expect_in_sop": true, "note": "malbe ka zikr hai"},
+  {"id": "R-07", "need": "water", "people_count": 40, "vulnerable": [], "hazard": null, "expect_in_sop": true, "note": "peene ka pani - ubla hua"},
+  {"id": "R-08", "need": "food", "people_count": 40, "vulnerable": ["child"], "hazard": null, "expect_in_sop": true, "note": "ready-to-eat food"},
+  {"id": "R-09", "need": "shelter", "people_count": 15, "vulnerable": ["elderly", "child"], "hazard": null, "expect_in_sop": true, "note": "safe shelter"},
+  {"id": "R-10", "need": "rescue", "people_count": 10, "vulnerable": ["elderly"], "hazard": "road submerged, boat only", "expect_in_sop": true, "note": "do feet pani gaadi bahaa deta hai"},
+
+  {"id": "R-11", "need": "medical", "people_count": 1, "vulnerable": ["pregnant"], "hazard": "labour pain, hospital unreachable", "expect_in_sop": false, "note": "delivery ka SOP is doc me nahi"},
+  {"id": "R-12", "need": "medical", "people_count": 2, "vulnerable": ["injured"], "hazard": "hospital generator failure, oxygen patients", "expect_in_sop": false, "note": "oxygen backup nahi likha"},
+  {"id": "R-13", "need": "medical", "people_count": 1, "vulnerable": ["elderly"], "hazard": "dialysis missed 2 days", "expect_in_sop": false, "note": "dialysis ka zikr nahi"},
+  {"id": "R-14", "need": "medicine", "people_count": 1, "vulnerable": ["elderly"], "hazard": "insulin needs refrigeration, no power", "expect_in_sop": false, "note": "insulin storage nahi likha"},
+  {"id": "R-15", "need": "medical", "people_count": 1, "vulnerable": ["elderly"], "hazard": "chest pain, cardiac history", "expect_in_sop": false, "note": "cardiac protocol nahi"},
+  {"id": "R-16", "need": "rescue", "people_count": 2, "vulnerable": ["child"], "hazard": "children missing since school", "expect_in_sop": false, "note": "missing-person search ka SOP nahi"},
+  {"id": "R-17", "need": "rescue", "people_count": 1, "vulnerable": ["disabled"], "hazard": "wheelchair user alone, cannot move", "expect_in_sop": false, "note": "disability-specific evacuation nahi (Disability DRR guideline add karo to ye TRUE ho jayega)"},
+  {"id": "R-18", "need": "medical", "people_count": 1, "vulnerable": ["injured"], "hazard": "deep leg wound, bleeding", "expect_in_sop": false, "note": "first-aid steps nahi"},
+  {"id": "R-19", "need": "rescue", "people_count": 1, "vulnerable": [], "hazard": "person swept away, last seen downstream", "expect_in_sop": false, "note": "search ka SOP nahi"},
+  {"id": "R-20", "need": "rescue", "people_count": 1, "vulnerable": ["disabled"], "hazard": "person with mental illness, disoriented, alone", "expect_in_sop": false, "note": "psychosocial SOP nahi"}
+]

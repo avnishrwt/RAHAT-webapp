@@ -102,6 +102,14 @@ class ExtractedBy(StrEnum):
     rules = "rules"      # keyword fallback / baseline
 
 
+class FieldUpdate(StrEnum):
+    """One-tap buttons on the team PWA (PRD FR12)."""
+    reached = "reached"
+    rescued = "rescued"
+    no_one_here = "no_one_here"
+    need_backup = "need_backup"
+
+
 # ---------- extractor output (contract between agents and backend) ----------
 
 class ExtractedFields(BaseModel):
@@ -233,3 +241,22 @@ class MessageIn(BaseModel):
         if self.channel not in silent and not (self.raw_text or self.audio_url):
             raise ValueError("give raw_text or audio_url")
         return self
+
+
+class ApproveIn(BaseModel):
+    """Body of POST /assignments/{id}/approve. A team_id here = the operator's "Change"."""
+    operator: str
+    team_id: str | None = None
+
+
+class RejectIn(BaseModel):
+    operator: str
+    reason: str | None = None
+
+
+class TeamStatusIn(BaseModel):
+    """Body of PATCH /teams/{id}/status, sent by the team PWA (queued while offline)."""
+    update: FieldUpdate
+    assignment_id: int | None = None   # only needed if the team has several jobs
+    lat: float | None = None
+    lng: float | None = None
